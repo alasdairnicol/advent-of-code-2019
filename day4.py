@@ -23,10 +23,6 @@ def main():
     start = 254032
     end = 789860
 
-    print(test_password(111111))
-    print(test_password(223450))
-    print(test_password(123789))
-
     count = sum(test_password(x) for x in range(start, end + 1))
 
     print(count)
