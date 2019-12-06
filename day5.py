@@ -94,7 +94,7 @@ def do_turn(values, start_position):
     elif opcode == 4:
         position = do_output(values, modes, start_position)
     else:
-        print("Unexpected opcode", opcode)
+        raise ValueError("Unexpected opcode: %s", opcode)
 
     return position
 
