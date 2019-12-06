@@ -122,8 +122,7 @@ def do_less_than(values, modes, start_position):
     else:
         pos_destination = values[start_position + 3]
 
-        
-    new_value = 1 if values[pos_a]  < values[pos_b] else 0 
+    new_value = 1 if values[pos_a] < values[pos_b] else 0
     values[pos_destination] = new_value
     return start_position + 4
 
@@ -144,8 +143,7 @@ def do_equals(values, modes, start_position):
     else:
         pos_destination = values[start_position + 3]
 
-        
-    new_value = 1 if values[pos_a] == values[pos_b] else 0 
+    new_value = 1 if values[pos_a] == values[pos_b] else 0
     values[pos_destination] = new_value
     return start_position + 4
 
