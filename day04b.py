@@ -5,7 +5,7 @@ def test_password(password):
 
     # Does it have two adjacent digits that are the same
     password_str = str(password)
-    for (i, x) in enumerate(password_str[:-1]):
+    for i, x in enumerate(password_str[:-1]):
         if i > 0 and x == password_str[i - 1]:
             # Same as previous digit, ignore so we don't get three in a row
             continue
