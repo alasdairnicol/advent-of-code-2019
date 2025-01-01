@@ -3,7 +3,7 @@ def get_orbits():
     Return a map where the values are the objects orbited
     """
     orbits = {}
-    with open("day6.txt") as f:
+    with open("day06.txt") as f:
         for line in f.readlines():
             a, b = line.strip().split(")")
             orbits[b] = a

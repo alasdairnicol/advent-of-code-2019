@@ -40,7 +40,7 @@ def main():
 
 
 def read_input():
-    with open("day8.txt") as f:
+    with open("day08.txt") as f:
         return [int(x) for x in f.read().rstrip()]
 
 

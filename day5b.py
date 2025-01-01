@@ -184,7 +184,7 @@ def do_turn(values, start_position):
 
 
 def read_input():
-    with open("day5.txt") as f:
+    with open("day05.txt") as f:
         return [int(x) for x in f.read().split(",")]
 
 

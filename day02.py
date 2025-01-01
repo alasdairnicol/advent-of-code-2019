@@ -29,7 +29,7 @@ def do_turn(values, start_position):
 
 
 def read_input():
-    with open("day2.txt") as f:
+    with open("day02.txt") as f:
         return [int(x) for x in f.read().split(",")]
 
 

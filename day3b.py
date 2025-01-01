@@ -1,5 +1,5 @@
 def read_input():
-    with open("day3.txt") as f:
+    with open("day03.txt") as f:
         l1 = f.readline().strip().split(",")
         l2 = f.readline().strip().split(",")
         return l1, l2

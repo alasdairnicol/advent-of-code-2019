@@ -10,7 +10,7 @@ def get_total(values):
 
 
 def read_input():
-    with open("day1.txt") as f:
+    with open("day01.txt") as f:
         return (int(x) for x in f.readlines())
 
 
