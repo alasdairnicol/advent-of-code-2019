@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 def calc_energy(positions, velocities):
     return sum(
         sum(abs(x) for x in position) * sum(abs(y) for y in velocity)

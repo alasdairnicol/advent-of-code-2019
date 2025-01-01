@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 def read_input():
     with open("day03.txt") as f:
         l1 = f.readline().strip().split(",")

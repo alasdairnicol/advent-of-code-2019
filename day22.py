@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 DECK_SIZE = 10007
 
 

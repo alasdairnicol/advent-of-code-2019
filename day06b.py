@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 def get_orbits():
     """
     Return a map where the values are the objects orbited

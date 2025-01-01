@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 DIMENSIONS = (25, 6)
 
 

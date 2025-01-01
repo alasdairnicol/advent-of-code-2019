@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import itertools
 
 BASE_SIGNAL = [0, 1, 0, -1]
